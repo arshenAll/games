@@ -8,6 +8,7 @@ let pointsPerPlayer = [];
 let choicePlayer = [];
 let points = [];
 let pointsOnScreen = [];
+let noOne = false;
 window.onload = function init(){
     var preGame = document.getElementById("preGame");
     var cose = document.getElementById("preGame").innerHTML;
@@ -135,8 +136,12 @@ function confrontaRisultati(points, playerSection){
             //pointsOnScreen[i]= true;
             console.log("il giocatore "+nPlayers[i]+" scegliendo "+choicePlayer[i]+" ha un totale di "+pointsPerPlayer[i]+" punti");
         }else{
+            noOne = true;
             console.log("nop")
         }
+        
+    } if(noOne = true){
+        alert("nessuno ha indovinato :(")
 
     } 
 }

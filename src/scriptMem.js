@@ -95,7 +95,7 @@ function creaCarte() {
         let imgFronte = document.createElement("img");
         let imgRetro = document.createElement("img");
 
-        imgFronte.src = "./imgs/" + immagini[numeroUscito[index]] + ".png";
+        imgFronte.src = "../images/" + immagini[numeroUscito[index]] + ".png";
 
 
         cartaDavanti.appendChild(imgFronte);
