@@ -1,0 +1,24 @@
+#preGame{
+    background-color: antiquewhite;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.scritte{
+    margin: 1rem;
+}
+.singlePlayer{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: darkgrey;
+    padding: 1rem;
+    border-radius: 4px;
+    justify-content: center;
+}
+.puntiGiocatore{
+    margin : auto;
+    margin-top: 1rem;
+}
